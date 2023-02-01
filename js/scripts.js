@@ -1,10 +1,3 @@
-/*
-* ----------------------------------------------------------------------------------------
-Author       : Mannat Themes
-Template Name: Mannat - Responsive Personal Template
-Version      : 1.0
-* ----------------------------------------------------------------------------------------
-*/
 
 var mannatApp = (function() {
     var htmlRef = $('html');
