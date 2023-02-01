@@ -860,6 +860,11 @@ margin-top: 0;
 
 .social-links ul li {
     display: inline-block;
+    transition: transform .2s;
+}
+
+.social-links ul li:hover{
+    transform: scale(1.5);
 }
 
 .social-links ul li a {
@@ -884,7 +889,7 @@ margin-top: 0;
 
 
 .header-links ul li a:hover {
-    color: #41b548;
+    color: #02a1fd;
 }
 .footer-link{
     background: #212b36;
