@@ -527,7 +527,7 @@ fieldset {
 .rex-item h4 {
     font-weight: 600;
     font-size: 17px;
-    color: #4c5667;
+    color: #fff;
     letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -850,7 +850,7 @@ margin-top: 0;
 */
 
 .footer-area {
-    padding: 80px 0px;
+    padding: 25px 0px;
 }
 
 .social-links ul {
