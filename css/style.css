@@ -115,7 +115,7 @@ fieldset {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 30px;
-    color: #212b36;
+    color: #02a1fd;
     text-align: center;
     letter-spacing: 2px;
     
@@ -135,7 +135,7 @@ fieldset {
     font-weight: 300;
 }
 .title-border{
-    background-color:#41b548;
+    background-color:#ffffff;
     height: 4px;
     width: 60px;
     margin-left: auto;
@@ -144,8 +144,8 @@ fieldset {
 }
 
 .btn-custom {
-    background-color:#41b548;
-    border: 1px solid #41b548;
+    background-color:#02a1fd;
+    border: 1px solid #ffffff;
     color:white;
     padding: 10px 20px 10px 20px;
 }
@@ -242,7 +242,7 @@ fieldset {
 .home-image-area {
     position: relative;
     height: 100%;
-    background-image: url(../images/bg-1.jpg);
+    background-image: url(../images/bg-2.jpg);
     background-repeat: repeat;
     background-size: cover;
     z-index: 1;
@@ -295,6 +295,7 @@ fieldset {
     font-size: 70px;
     font-weight: 900;
     text-transform: capitalize;
+    text-shadow: 1px 3px #0288d1;
 }
 
 .header-text p {
@@ -315,9 +316,11 @@ fieldset {
 }
 
 .logo {
-    padding-top: 28px;
+    padding-top: 8px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+    width: 150px;
+    
 }
 .logo span{
     color: #41b548; 
@@ -342,13 +345,13 @@ fieldset {
 }
 
 .mainmenu .navbar-nav li a:hover {
-    color: #41b548;
+    color: #06b4f7;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
 
 .menu-bg .mainmenu .navbar-nav li.active a {
-    color: #41b548;
+    color: #06b4f7;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
@@ -486,7 +489,7 @@ fieldset {
     left: 0px;
     margin-left: -60px;
     border: 10px solid rgba(255, 255, 255, 0.48);
-    background-color: #41b548;
+    background-color: #02a1fd;
    
 }
 
@@ -506,7 +509,7 @@ fieldset {
     width: 2px;
     margin: 0 auto;
     height: 80%;
-    background:#41b548;
+    background:#02a1fd;
     top: 15px;
 }
 .rex-item{
@@ -519,7 +522,7 @@ fieldset {
 
 .rex-item h3 {
     font-size: 22px;
-    color: #41b548;
+    color: #0288d1;
 }
 .rex-item h4 {
     font-weight: 600;
@@ -573,9 +576,9 @@ fieldset {
     overflow: hidden;
     border: 5px solid rgba(255, 255, 255, 0.4);
     border-radius: 50%;
-    box-shadow: 0 0 3px #41b548;
+    box-shadow: 0 0 3px #02a1fd;
     transition: all 0.3s;
-    background: #41b548;
+    background: #02a1fd;
 }
 
 .single-service h2 {
@@ -612,8 +615,8 @@ font-weight: 500;
 cursor: pointer;
 }
 #work .lrs-list-protfolio .fil-cat.active {
-border-bottom: 2px solid #41b548;
-color: #41b548;
+border-bottom: 2px solid #02a1fd;
+color: #02a1fd;
 }
 #work .lrs-projects {
 margin-top: 30px;
@@ -655,7 +658,7 @@ position: absolute;
 top: 0;
 left: 0;
 z-index: 1;
-color:  #41b548;
+color:  #02a1fd;
 padding: 15px;
 align-items: center;
 display: flex;
@@ -691,7 +694,7 @@ margin-top: 0;
     text-transform: uppercase;
     -webkit-transition: .3s;
     transition: .3s;
-    color:#41b548;
+    color:#02a1fd;
     letter-spacing: 2px;
     font-weight: 700;
 }
@@ -701,7 +704,7 @@ margin-top: 0;
     text-transform: capitalize;
     font-weight: 300;
     margin-top: 0;
-    color:#41b548;
+    color:#02a1fd;
 }
 
 .single-testimonial p {
@@ -766,7 +769,7 @@ margin-top: 0;
 }
 
 .meta-box span {
-    color: #41b548;
+    color: #02a1fd;
 }
 
 .home_2 .meta-box span {
@@ -819,7 +822,7 @@ margin-top: 0;
 .form-control:focus {
     border-color:#b54141;
     outline: 0;
-    box-shadow: #41b548;
+    box-shadow: #02a1fd;
 }
 
 .btn.active.focus,
@@ -833,7 +836,7 @@ margin-top: 0;
 }
 
 .success {
-    background: #50B948 none repeat scroll 0 0;
+    background: #02a1fd none repeat scroll 0 0;
     color: #fff;
     font-weight: 700;
     padding: 20px;
