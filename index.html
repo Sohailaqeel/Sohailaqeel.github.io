@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from mannatthemes.com/mannat/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Aug 2021 15:27:50 GMT -->
-
 <head>
     <!-- META -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="keywords"
-        content="resume, cv, portfolio, personal, developer, matola,personal resume, onepage, clean, modern">
-    <meta name="author" content="Mannat Theme">
+    <meta name="keywords" content="sohail aqeel, portfolio">
+    <meta name="author" content="Sohail Aqeel">
 
     <!-- PAGE TITLE -->
-    <title>Mannat - Responsive Personal Template</title>
+    <title>Sohail Aqeel</title>
 
     <!-- BOOTSTRAP CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -103,6 +99,14 @@
         animation: typing 2s steps(21, end),
             blink-caret .5s step-end infinite alternate;
     }
+
+    .video-card .card-body {
+        padding: 10px;
+    }
+
+    .video-card .card-title {
+        font-weight: 700;
+    }
 </style>
 
 <body>
@@ -168,7 +172,7 @@
             </div>
             <!--end container-->
         </div>
-        <div id="particles-js"style="margin-top: 80px;"></div>
+        <div id="particles-js" style="margin-top: 80px;"></div>
         <div class="home-image-area" data-stellar-background-ratio="0.6">
             <div class="bg-overlay"></div>
             <div class="display-table">
@@ -793,14 +797,16 @@
                     <div class="lrs-divider-3"></div>
                     <ul class="list-unstyled list-inline lrs-list-protfolio" id="filter">
                         <li class="active fil-cat" data-rel="all">All</li>
-                        <li class="fil-cat" data-rel="web">Logo/Branding Designs</li>
-                        <li class="fil-cat" data-rel="js">Storyboard</li>
-                        <li class="fil-cat" data-rel="wordpress">UI Designs</li>
+                        <li class="fil-cat" data-rel="logo-branding">Logo/Branding Designs</li>
+                        <li class="fil-cat" data-rel="story-boarding">Story Boarding</li>
+                        <li class="fil-cat" data-rel="ui-designs">UI Designs</li>
+                        <li class="fil-cat" data-rel="2d-animation">2D Animation</li>
                     </ul>
                 </div>
                 <div class="col-md-12 col-xs-12">
                     <div class="lrs-projects">
-                        <div class="lrs-project scale-anm web js all" data-toggle="modal" data-target="#one">
+                        <!-- logo-branding -->
+                        <div class="lrs-project scale-anm logo-branding all" data-toggle="modal" data-target="#one">
                             <div class="lrs-project-image">
                                 <img src="images/port/1.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
@@ -809,34 +815,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="lrs-project scale-anm js html all" data-toggle="modal" data-target="#one">
-                            <div class="lrs-project-image">
-                                <img src="images/port/2.jpg" class="img-responsive" alt="Resume / CV" />
-                                <div class="lrs-project-content">
-                                    <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
-                                    <p class="lrs-project-client"><b>YAHOO</b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lrs-project scale-anm js web all" data-toggle="modal" data-target="#one">
-                            <div class="lrs-project-image">
-                                <img src="images/port/3.jpg" class="img-responsive" alt="Resume / CV" />
-                                <div class="lrs-project-content">
-                                    <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
-                                    <p class="lrs-project-client"><b>MICROSOFT</b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lrs-project scale-anm js wordpress all" data-toggle="modal" data-target="#one">
-                            <div class="lrs-project-image">
-                                <img src="images/port/4.jpg" class="img-responsive" alt="Resume / CV" />
-                                <div class="lrs-project-content">
-                                    <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
-                                    <p class="lrs-project-client"><b>INTEL</b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lrs-project scale-anm web all" data-toggle="modal" data-target="#one">
+                        <div class="lrs-project scale-anm logo-branding all" data-toggle="modal" data-target="#one">
                             <div class="lrs-project-image">
                                 <img src="images/port/5.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
@@ -846,7 +825,17 @@
                             </div>
                         </div>
 
-                        <div class="lrs-project scale-anm web wordpress all" data-toggle="modal" data-target="#one">
+                        <!-- story-boarding -->
+                        <div class="lrs-project scale-anm story-boarding all" data-toggle="modal" data-target="#one">
+                            <div class="lrs-project-image">
+                                <img src="images/port/2.jpg" class="img-responsive" alt="Resume / CV" />
+                                <div class="lrs-project-content">
+                                    <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
+                                    <p class="lrs-project-client"><b>YAHOO</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lrs-project scale-anm story-boarding all" data-toggle="modal" data-target="#one">
                             <div class="lrs-project-image">
                                 <img src="images/port/6.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
@@ -856,9 +845,19 @@
                             </div>
                         </div>
 
-                        <div class="lrs-project scale-anm web html all" data-toggle="modal" data-target="#one">
+                        <!-- ui-designs -->
+                        <div class="lrs-project scale-anm ui-designs all" data-toggle="modal" data-target="#one">
                             <div class="lrs-project-image">
-                                <img src="images/port/7.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/port/3.jpg" class="img-responsive" alt="Resume / CV" />
+                                <div class="lrs-project-content">
+                                    <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
+                                    <p class="lrs-project-client"><b>MICROSOFT</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lrs-project scale-anm ui-designs all" data-toggle="modal" data-target="#one">
+                            <div class="lrs-project-image">
+                                <img src="images/port/8.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
                                     <p class="lrs-project-client"><b>FACEBOOK</b></p>
@@ -866,12 +865,19 @@
                             </div>
                         </div>
 
-                        <div class="lrs-project scale-anm web wordpress all" data-toggle="modal" data-target="#one">
-                            <div class="lrs-project-image">
-                                <img src="images/port/8.jpg" class="img-responsive" alt="Resume / CV" />
-                                <div class="lrs-project-content">
-                                    <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
-                                    <p class="lrs-project-client"><b>FACEBOOK</b></p>
+                        <!-- 2d-animation -->
+                        <div class="lrs-project scale-anm video-card 2d-animation all" data-toggle="modal"
+                            data-target="#one">
+                            <div class="lrs-project-image video">
+                                <div class="card bg-dark">
+                                    <video src="https://codingyaar.com/wp-content/uploads/video-in-bootstrap-card.mp4"
+                                        class="card-img-top img-responsive" muted loop controls
+                                        controlsList="nodownload"></video>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1086,6 +1092,12 @@
     </section>
     <!--  END contect-->
 
+    <!-- watsapp -->
+    <a href="https://api.whatsapp.com/send?phone=03408395382&text=Hello Sohail Aqeel!" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <!-- watsapp -->
+
     <!-- START footer -->
     <footer class="footer-area">
         <div class="container footer-shadow">
@@ -1137,9 +1149,19 @@
     </script>
     <script src="/particles.js-master/demo/js/app.js">
     </script>
+
+
+    <script>
+        var cip = $(".video").hover(hoverVideo, hideVideo);
+
+        function hoverVideo(e) {
+            $('video', this).get(0).play();
+        }
+
+        function hideVideo(e) {
+            $('video', this).get(0).pause();
+        }
+    </script>
 </body>
-
-
-<!-- Mirrored from mannatthemes.com/mannat/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Aug 2021 15:27:50 GMT -->
 
 </html>
